@@ -27,3 +27,7 @@ CloudFront が「このエラー結果を〇秒キャッシュしてよい」と
 #####  ■ CloudFront – キャッシュの有効期限（TTL）
 
 ##### https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/Expiration.html
+
+#####  ■ Amazon CloudFront の料金
+
+##### https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/Expiration.html](https://aws.amazon.com/jp/cloudfront/pricing/
