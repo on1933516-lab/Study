@@ -1,6 +1,6 @@
 # CloudFront ディストリビューション設定
 
-## Flutter Web（S3）＋ API Gateway 構成
+　Flutter Web（S3）＋ API Gateway 構成
 
 ---
 
@@ -22,7 +22,7 @@ CloudFront はここで指定した S3 から
 CloudFront が **ルート（https://xxxxx.cloudfront.net/）へアクセスされたときに返すファイル** を指定する。
 
 ### ● shared-expense-app の場合：
-- index.html
+ index.html
 
 ---
 
@@ -34,7 +34,13 @@ CloudFront が **ルート（https://xxxxx.cloudfront.net/）へアクセスさ�
 - HTTP/1.1  
 - HTTP/1.0
 
-（※ HTTP/3 は 2025/現在「有効にできる場合あり」だが、基本は HTTP/2 で OK）
+※ HTTP/3 について  
+HTTP/3 は HTTP/2 の次世代プロトコルで、QUIC（UDPベース）を使うため  
+**接続が速く、不安定な通信でも強い** という特徴がある。
+
+CloudFront も HTTP/3 をサポートしているが、  
+**利用者側（ブラウザ）の対応状況によって自動的に切り替わる方式のため、  
+特別な設定は不要で、通常は HTTP/2 。**
 
 ---
 
