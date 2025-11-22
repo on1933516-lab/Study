@@ -19,7 +19,7 @@ CloudFront はここで指定した S3 から
 
 ## 2. Default Root Object
 
-CloudFront が **ルート（https://xxxxx.cloudfront.net/）へアクセスされたときに返すファイル** を指定する。
+CloudFront が **ルート（`https://xxxxx.cloudfront.net/`）へアクセスされたときに返すファイル** を指定する。
 
 ### ● shared-expense-app の場合：
  index.html
