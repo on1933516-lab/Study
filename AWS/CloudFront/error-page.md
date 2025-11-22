@@ -18,4 +18,12 @@ CloudFront が「このエラー結果を〇秒キャッシュしてよい」と
 返すステータスコードを変更できる。
 
 - 例：403 → 200 にして「見た目上成功扱い」にする  
-- SEO や UX の都合で使用されることがある
+- SEO(検索で上位を取るための全体的な対策) や UX の都合で使用されることがある
+
+###■ CloudFront – カスタムエラーページ
+
+https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/custom-error-pages.html
+
+###■ CloudFront – キャッシュの有効期限（TTL）
+
+https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/Expiration.html
