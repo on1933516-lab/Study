@@ -52,7 +52,10 @@ S3のアクセス制御は通常「バケット単位」で設定するが、
 - **Principal**：バケットへアクセス可能なリソースまたはユーザーを指定する。（*でAWSアカウントが無い場合もアクセス可となる）
 - **Action**：制御したい操作を記述する。
 ---
-引用：AWSの基本・仕組み・重要用語が全部わかる教科書
+引用：
+#####　書籍：AWSの基本・仕組み・重要用語が全部わかる教科書
+#####　■ IAM JSON ポリシー要素Sid：
+#####　https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements_sid.html
 
 ---
 
