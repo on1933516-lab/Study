@@ -54,11 +54,11 @@ S3のアクセス制御は通常「バケット単位」で設定するが、
 ---
 引用：
 
-#####　書籍：AWSの基本・仕組み・重要用語が全部わかる教科書
+##### ■ 書籍：AWSの基本・仕組み・重要用語が全部わかる教科書
 
-#####　■ IAM JSON ポリシー要素Sid：
+##### ■ IAM JSON ポリシー要素Sid：
 
-#####　https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements_sid.html
+##### https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_elements_sid.html
 
 ---
 
