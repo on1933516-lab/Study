@@ -4,6 +4,7 @@
 
 AWSが提供するWebアプリケーションファイアウォール。
 
+
 代表的な用途
  - アプリケーションの脆弱性を悪用した攻撃の遮断(SQL インジェクション, XSS)
  - アプリケーション層の DDoS 対策
@@ -36,11 +37,11 @@ WAFのデプロイ可能なサービス
 ### 適用ルール
 
 #### **Default Action: BLOCK**  
-Allow で明示的に許可された場合のみアクセスを通す。
+　Allow で明示的に許可された場合のみアクセスを通す。
 
 #### **Rule Priority（評価順序）**
-- Allow（許可ルール） → 最優先で評価  
-- Default Block → 最後に実行されるフェイルセーフ  
+　- Allow（許可ルール） → 最優先で評価  
+　- Default Block → 最後に実行されるフェイルセーフ  
 
 ---
 
@@ -52,18 +53,18 @@ Allow で明示的に許可された場合のみアクセスを通す。
   （`0.0.0.0/1` + `128.0.0.0/1` で IPv4 全体をカバー。IPv6 も同様に 2 分割で設定）
 
 #### **GlobalRateBasedRule（Count モード）**
-短時間で大量リクエストを送ってくる相手を検知するルール。  
-※Count モードのため検知のみでブロックはしない。
+　短時間で大量リクエストを送ってくる相手を検知するルール。  
+　※Count モードのため検知のみでブロックはしない。
 
 #### **BodySizeRestrictionRule（Count モード）**
-想定より大きすぎるリクエストボディを検知するルール。  
-※Count モードのため監視目的。
+　想定より大きすぎるリクエストボディを検知するルール。  
+　※Count モードのため監視目的。
 
 #### **AWS-AWSManagedRulesCommonRuleSet**
-XSS、コマンドインジェクションなど OWASP Top 10 に含まれる一般的な攻撃を防御。
+　XSS、コマンドインジェクションなど OWASP Top 10 に含まれる一般的な攻撃を防御。
 
 #### **AWS-AWSManagedRulesSQLiRuleSet**
-SQL インジェクション攻撃をブロック。
+　SQL インジェクション攻撃をブロック。
 
 #### **AWS-AWSManagedRulesAdminProtectionRuleSet**
-`/admin`、`/wp-login`、`/phpmyadmin` など管理系パスへの攻撃をブロックするルール。
+　`/admin`、`/wp-login`、`/phpmyadmin` など管理系パスへの攻撃をブロックするルール。
