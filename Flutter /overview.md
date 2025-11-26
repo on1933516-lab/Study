@@ -8,3 +8,7 @@ Flutterは、Googleが開発したオープンソースのUIフレームワー�
 ##### ■ Flutter - Build apps for any screen
 
 ##### https://flutter.dev/
+
+##### ■ Guide to app architecture
+
+##### https://docs.flutter.dev/app-architecture/guide
