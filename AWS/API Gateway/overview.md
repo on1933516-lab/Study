@@ -30,12 +30,12 @@ API の作成・管理・セキュリティをフルマネージドで提供す�
 API Gateway を API の統合ポイント（リクエストの受け取り口） として利用し、
 以下のように HTTP リクエストを Lambdaへルーティングしている。
 
-{
+```text
 GET /expenses → lambda_get_expenses
 POST /expenses → lambda_add_expense
 PUT /expenses/{id} → lambda_update_expense
 DELETE /expenses/{id} → lambda_delete_expense
-}
+```
 
 #### 特記事項
 
