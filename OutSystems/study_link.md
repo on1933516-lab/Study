@@ -3,6 +3,8 @@
 
  https://www.outsystems.com/ja-jp/company/
 
+ https://success.outsystems.com/ja-jp/documentation/11/
+
 ---
 
 ## 2. 基本の操作＆仕組み理解
