@@ -1,11 +1,7 @@
-## 1. OutSystems とは？
-● OutSystems とは？ – 日本語公式ページ
+## 1. OutSystems 
+● OutSystems 
 
-  https://www.outsystems.com/ja-jp/low-code/what-is-low-code/
-
-● OutSystems Japan Blog
-
-  https://www.outsystems.com/ja-jp/blog/posts/
+ https://www.outsystems.com/ja-jp/company/
 
 ---
 
