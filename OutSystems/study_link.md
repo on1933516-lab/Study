@@ -36,7 +36,4 @@
 
 ---
 
-##  6. ODC（OutSystems Developer Cloud）向け資料
 
-　OutSystems Japan の ODC紹介ページ（日本語）
-　https://www.outsystems.com/ja-jp/outsystems-developer-cloud/
