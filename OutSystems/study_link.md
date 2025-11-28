@@ -22,8 +22,8 @@
 
 ---
 
-## 4. 日本語の試験対策（問題集）
-● ARD 日本語版の問題集（無料）
+## 4. 日本語の試験対策
+● 体験記
 
 　https://www.tdi.co.jp/miso/outsystems-associate-reactive-developer
 
