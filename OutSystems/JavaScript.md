@@ -110,6 +110,9 @@ JavaScript ノードの **入力・出力パラメータにアクセスするた
 - ノードに設定した input/output パラメータへアクセス可能  
 - 例：`$parameters.MyInput`, `$parameters.MyOutput = value`
 
+関数作成時、引数の設定には以下２か所に設定が必要
+![hikisu](./Image/js_hikisu.png)
+
 ---
 
 ## ■ $actions  
