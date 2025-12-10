@@ -52,9 +52,9 @@
 
 実行時に定義済みのJavaScriptは以下の順序で実行される。
 ```text
-1.モジュール
-2.ブロック
-3.画面
+1. モジュールレベルのスクリプト
+2. ブロックレベルのスクリプト
+3. 画面レベルのスクリプト
 ```
 
 ※検証時は、各スクリプト内にコンソールログを配置し、
@@ -127,6 +127,8 @@ const result = await $actions.MyClientAction({ input: 123 });
 console.log(result.outputParameter);
 ```
 
+※ 参照しているモジュールの Public なクライアントアクションも $actions から呼び出し可能。
+
 ## ■ $public
 
 OutSystems が提供する パブリック JavaScript API へアクセスするためのオブジェクト。
@@ -196,5 +198,7 @@ Anonymous / Registered などのビルトインロールには アクセス不�
 → $public.Security.isUserRegistered()<br>
 → $public.Security.isUserAnonymous()<br>
 などを使う。
+
+※ $roles は「ロール名の定義」であり、ユーザーがそのロールを持つかどうかの判定には利用できない。
 
 ---
